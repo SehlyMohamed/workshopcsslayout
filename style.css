@@ -1,0 +1,70 @@
+body {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.header-div {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 40%;
+  list-style: none;
+  padding-left: 0%;
+}
+.nav-header a {
+  text-decoration: none;
+  color: bisque;
+}
+.nav-header a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.css {
+  color: blueviolet;
+}
+.btn {
+  border-radius: 8%;
+  border-style: solid;
+  border-color: black;
+  background-color: aliceblue;
+}
+.btn :hover {
+  border-style: solid;
+  border-color: rgb(100, 100, 185);
+  background-color: rgb(55, 55, 142);
+  border-radius: 8%;
+}
+.rightAbout {
+  border-style: solid;
+  border-color: rgb(66, 66, 157);
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 5%;
+  gap: 60px 20px;
+}
+.footer {
+  border-style: solid;
+  border-color: brown;
+}
+.card-img-top {
+  height: 23em;
+  width: 20rem;
+}
